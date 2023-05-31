@@ -6,6 +6,7 @@
  */
 
 import * as theme from './theme.js'
+console.log('from design sistem')
 
 export { theme }
 

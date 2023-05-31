@@ -1,6 +1,6 @@
 {
-  "name": "@adminjs/design-system",
-  "version": "4.0.2",
+  "name": "@str-adminjs/design-system",
+  "version": "1.0.1",
   "description": "DesignSystem which AdminJS is built with",
   "type": "module",
   "exports": {
@@ -14,7 +14,7 @@
       "types": "./types/src/utils/styled.d.ts"
     }
   },
-  "repository": "git@github.com:SoftwareBrothers/adminjs-design-system.git",
+  "repository": "https://github.com/IhorStorozhok/str-adminjs-design-system",
   "author": "Wojciech Krysiak",
   "license": "MIT",
   "scripts": {

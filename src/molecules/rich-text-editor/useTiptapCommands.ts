@@ -38,7 +38,10 @@ const useTiptapCommands = (props: useTiptapCommandsProps): TiptapCommand[] => {
     command('bulletList', () => editor.chain().focus().toggleBulletList().run(), 'BulletList'),
     command('orderedList', () => editor.chain().focus().toggleOrderedList().run(), 'OrderedList'),
     command('blockquote', () => editor.chain().focus().toggleBlockquote().run(), 'Quote'),
-    command('link', () => editor.chain().focus().unsetLink().run(), 'Link'),
+    command('link', () => {
+      console.log('helo from link')
+      return editor.chain().focus().unsetLink().run()
+    }, 'Link'),
 
     command('hard break', () => editor.chain().focus().setHardBreak().run(), 'Pagebreak'),
     command('undo', () => editor.chain().focus().undo().run(), 'Undo'),
